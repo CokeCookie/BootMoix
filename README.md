@@ -1,12 +1,12 @@
 # BootMoix
 
-Simple Shutdown/Reboot Homebrew for Nintendo Switch using libnx.
-It even has a scene-appropriate totally legit french title. Enjoy!
+Simple Shutdown/Reboot Homebrew for Nintendo Switch using libnx.  
+It even has a scene-appropriate totally legit french title. Enjoy!  
   
 This is a slightly modified version of a [libnx example](https://github.com/switchbrew/switch-examples) that uses calls to the bpc service to Shutdown/Reboot your Switch.  
 Just download a release or compile it yourself. Use with hbmenu like any other homebrew and follow the onscreen instructions.  
   
-_DISCLAIMER: I am not responsible for bricked switches, corrupted SD cards or any otherwise f*ed up things that happen to you. Use at your own risk!_
+__DISCLAIMER: I am not responsible for bricked switches, corrupted SD cards or any otherwise f*ed up things that happen to you. Use at your own risk!__
   
 ## How to install
 
