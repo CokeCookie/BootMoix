@@ -3,12 +3,12 @@
 Simple Shutdown/Reboot Homebrew for Nintendo Switch using libnx.  
 It even has a scene-appropriate totally legit french name. Enjoy!  
   
-This is a slightly modified version of a [libnx example](https://github.com/switchbrew/switch-examples) that uses calls to the bpc service to Shutdown/Reboot your Switch.  
+This is a slightly modified version of a [libnx example](https://github.com/switchbrew/switch-examples) that uses calls to the bpc service to shutdown/reboot your Switch.  
 Just download a release or compile it yourself. Use with hbmenu like any other homebrew and follow the onscreen instructions.  
   
 _Shutdown mode is currently not recommended! The first boot after using it always fails. Don't panic if it happens to you, just press power and inject your RCM payload again._
     
-__DISCLAIMER: I am not responsible for bricked switches, corrupted SD cards or any otherwise f*ed up things that happen to you. Use at your own risk!__
+__DISCLAIMER: I am not responsible for bricked switches, corrupted Nands/SD cards or any otherwise f*ed up things that happen to you. Use at your own risk!__
   
 ## How to install
 
