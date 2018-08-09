@@ -73,8 +73,8 @@ int main(int argc, char **argv)
     while(appletMainLoop())
     {
         if (mode > 0){
-            printf("Mode from config: %d", mode);
-            // break;
+            printf("Mode from config: %d\n", mode);
+            break;
         }
         
         //Scan all the inputs. This should be done once for each frame
