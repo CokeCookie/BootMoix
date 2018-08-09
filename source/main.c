@@ -64,12 +64,6 @@ int main(int argc, char **argv)
     consoleInit(NULL);
     
     mode = checkConfig();
-    
-    if (mode > 0){
-        gfxExit();
-        attemptBoot(mode);
-        return 0;
-    }
 
     printf("Hello!\n\n");
     printf("Press \x1b[33mA\x1b[0m for \x1b[32mreboot\x1b[0m\n");
@@ -78,6 +72,11 @@ int main(int argc, char **argv)
     // Main loop
     while(appletMainLoop())
     {
+        if (mode > 0){
+            printf("Mode from config: %d", mode);
+            // break;
+        }
+        
         //Scan all the inputs. This should be done once for each frame
         hidScanInput();
 
