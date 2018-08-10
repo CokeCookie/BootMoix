@@ -35,10 +35,13 @@ _Shutdown mode is currently not recommended! The first boot after using it alway
 3. `cd libnx`
 4. `make` (should finish without errors)
 5. `make install`
-6. `cd ..`
-7. Clone this repository.
-8. `cd BootMoix`
-9. `make`
+6. find your devkitpro installation folder
+7. nano `*your devkitpro folder*/libnx/include/switch.h`
+8. add the line `#include "switch/services/bpc.h"` and save
+9. `cd ..` (assuming your still inside the cloned libnx folder)
+10. Clone this repository.
+11. `cd BootMoix`
+12. `make`
   
 ## Credits
 
